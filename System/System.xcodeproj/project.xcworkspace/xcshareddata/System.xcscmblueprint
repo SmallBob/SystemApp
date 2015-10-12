@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "54531081ED77640B7143107504DDC5FB6078A953",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "38F9AC5FB6E2BEB49E665078B2650877F898B9F3" : 0,
+    "54531081ED77640B7143107504DDC5FB6078A953" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7D3FE1EC-41AE-4B20-82BA-1CC17E5CAEF6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "38F9AC5FB6E2BEB49E665078B2650877F898B9F3" : "",
+    "54531081ED77640B7143107504DDC5FB6078A953" : "System\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "System",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "System.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SmallBob\/SystemApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38F9AC5FB6E2BEB49E665078B2650877F898B9F3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SmallBob\/SystemApplication.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54531081ED77640B7143107504DDC5FB6078A953"
+    }
+  ]
+}

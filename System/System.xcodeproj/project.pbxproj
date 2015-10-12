@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34200DEB1BCB8F1D00EDB073 /* MCBrowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34200DEA1BCB8F1D00EDB073 /* MCBrowerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34200DED1BCB911300EDB073 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34200DEC1BCB911300EDB073 /* MultipeerConnectivity.framework */; };
+		34200DF01BCB94FD00EDB073 /* MCFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34200DEF1BCB94FD00EDB073 /* MCFindViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34200DF41BCBA68E00EDB073 /* CBPeripheralManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34200DF31BCBA68E00EDB073 /* CBPeripheralManagerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34200DF71BCBA6B000EDB073 /* CBCentralManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34200DF61BCBA6B000EDB073 /* CBCentralManagerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34200DF91BCBA89000EDB073 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34200DF81BCBA89000EDB073 /* CoreBluetooth.framework */; };
 		34BDCD071BC8B024008D1DA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BDCD061BC8B024008D1DA8 /* main.m */; };
 		34BDCD0A1BC8B024008D1DA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BDCD091BC8B024008D1DA8 /* AppDelegate.m */; };
 		34BDCD0D1BC8B024008D1DA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BDCD0C1BC8B024008D1DA8 /* ViewController.m */; };
@@ -34,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34200DE91BCB8F1D00EDB073 /* MCBrowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBrowerViewController.h; sourceTree = "<group>"; };
+		34200DEA1BCB8F1D00EDB073 /* MCBrowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBrowerViewController.m; sourceTree = "<group>"; };
+		34200DEC1BCB911300EDB073 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		34200DEE1BCB94FD00EDB073 /* MCFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFindViewController.h; sourceTree = "<group>"; };
+		34200DEF1BCB94FD00EDB073 /* MCFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCFindViewController.m; sourceTree = "<group>"; };
+		34200DF21BCBA68E00EDB073 /* CBPeripheralManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPeripheralManagerViewController.h; sourceTree = "<group>"; };
+		34200DF31BCBA68E00EDB073 /* CBPeripheralManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPeripheralManagerViewController.m; sourceTree = "<group>"; };
+		34200DF51BCBA6B000EDB073 /* CBCentralManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCentralManagerViewController.h; sourceTree = "<group>"; };
+		34200DF61BCBA6B000EDB073 /* CBCentralManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCentralManagerViewController.m; sourceTree = "<group>"; };
+		34200DF81BCBA89000EDB073 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		34BDCD011BC8B024008D1DA8 /* System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = System.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BDCD051BC8B024008D1DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34BDCD061BC8B024008D1DA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34200DF91BCBA89000EDB073 /* CoreBluetooth.framework in Frameworks */,
+				34200DED1BCB911300EDB073 /* MultipeerConnectivity.framework in Frameworks */,
 				34BDCD601BC8D321008D1DA8 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,9 +98,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34200DE71BCB8EED00EDB073 /* GameKit */ = {
+			isa = PBXGroup;
+			children = (
+				34BDCD711BC91510008D1DA8 /* GameKitViewController.h */,
+				34BDCD721BC91510008D1DA8 /* GameKitViewController.m */,
+			);
+			name = GameKit;
+			sourceTree = "<group>";
+		};
+		34200DE81BCB8EFC00EDB073 /* MultipeerConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				34200DE91BCB8F1D00EDB073 /* MCBrowerViewController.h */,
+				34200DEA1BCB8F1D00EDB073 /* MCBrowerViewController.m */,
+				34200DEE1BCB94FD00EDB073 /* MCFindViewController.h */,
+				34200DEF1BCB94FD00EDB073 /* MCFindViewController.m */,
+			);
+			name = MultipeerConnectivity;
+			sourceTree = "<group>";
+		};
+		34200DF11BCBA64F00EDB073 /* coreBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				34200DF21BCBA68E00EDB073 /* CBPeripheralManagerViewController.h */,
+				34200DF31BCBA68E00EDB073 /* CBPeripheralManagerViewController.m */,
+				34200DF51BCBA6B000EDB073 /* CBCentralManagerViewController.h */,
+				34200DF61BCBA6B000EDB073 /* CBCentralManagerViewController.m */,
+			);
+			name = coreBluetooth;
+			sourceTree = "<group>";
+		};
 		34BDCCF81BC8B023008D1DA8 = {
 			isa = PBXGroup;
 			children = (
+				34200DF81BCBA89000EDB073 /* CoreBluetooth.framework */,
+				34200DEC1BCB911300EDB073 /* MultipeerConnectivity.framework */,
 				34BDCD5F1BC8D321008D1DA8 /* MessageUI.framework */,
 				34BDCD031BC8B024008D1DA8 /* System */,
 				34BDCD1D1BC8B024008D1DA8 /* SystemTests */,
@@ -177,8 +228,9 @@
 		34BDCD6B1BC8FACC008D1DA8 /* 蓝牙 */ = {
 			isa = PBXGroup;
 			children = (
-				34BDCD711BC91510008D1DA8 /* GameKitViewController.h */,
-				34BDCD721BC91510008D1DA8 /* GameKitViewController.m */,
+				34200DE71BCB8EED00EDB073 /* GameKit */,
+				34200DE81BCB8EFC00EDB073 /* MultipeerConnectivity */,
+				34200DF11BCBA64F00EDB073 /* coreBluetooth */,
 			);
 			path = "蓝牙";
 			sourceTree = "<group>";
@@ -285,12 +337,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				34BDCD661BC8E1DC008D1DA8 /* EmailViewController.m in Sources */,
+				34200DF41BCBA68E00EDB073 /* CBPeripheralManagerViewController.m in Sources */,
 				34BDCD631BC8D954008D1DA8 /* MessageViewController.m in Sources */,
 				34BDCD0D1BC8B024008D1DA8 /* ViewController.m in Sources */,
 				34BDCD731BC91510008D1DA8 /* GameKitViewController.m in Sources */,
 				34BDCD701BC9026F008D1DA8 /* KCAddPersonViewController.m in Sources */,
+				34200DF01BCB94FD00EDB073 /* MCFindViewController.m in Sources */,
+				34200DEB1BCB8F1D00EDB073 /* MCBrowerViewController.m in Sources */,
 				34BDCD0A1BC8B024008D1DA8 /* AppDelegate.m in Sources */,
 				34BDCD071BC8B024008D1DA8 /* main.m in Sources */,
+				34200DF71BCBA6B000EDB073 /* CBCentralManagerViewController.m in Sources */,
 				34BDCD6A1BC8ED64008D1DA8 /* KCContactViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
